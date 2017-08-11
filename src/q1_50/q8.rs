@@ -1,8 +1,8 @@
 use std::collections::VecDeque;
 
-pub fn q8()-> i64 {
+pub fn q8() -> i64 {
 
-	let string:String = "7316717653133062491922511967442657474235534919\
+    let string: String = "7316717653133062491922511967442657474235534919\
 						49349698352031277450632623957831801698480186947\
 						88518438586156078911294949545950173795833195285\
 						32088055111254069874715852386305071569329096329\
@@ -23,35 +23,36 @@ pub fn q8()-> i64 {
 						09188845801561660979191338754992005240636899125\
 						60717606058861164671094050775410022569831552000\
 						55935729725716362695618826704282524836008232575\
-						30420752963450".to_string();
-	
-	let mut nums:VecDeque<u8> = VecDeque::new();
-	let mut curr_product:i64 = 1;
-	let mut chars_iter = string.chars();
-	
-	for _ in 0..13 {
-		let num:u8 = chars_iter.next().unwrap().to_digit(10).unwrap() as u8;
-		nums.push_back(num);
-		curr_product *= num as i64;
-	}
-	let mut max:i64 = curr_product;
+						30420752963450"
+        .to_string();
 
-	for c in chars_iter {
+    let mut nums: VecDeque<u8> = VecDeque::new();
+    let mut curr_product: i64 = 1;
+    let mut chars_iter = string.chars();
 
-		nums.pop_front();
-		nums.push_back(c.to_digit(10).unwrap() as u8);
-		curr_product = {
-			let mut temp:i64 = 1;
-			for i in &nums {
-				temp *= *i as i64;
-			}
-			temp
-		};
+    for _ in 0..13 {
+        let num: u8 = chars_iter.next().unwrap().to_digit(10).unwrap() as u8;
+        nums.push_back(num);
+        curr_product *= num as i64;
+    }
+    let mut max: i64 = curr_product;
 
-		if curr_product > max {
-			max = curr_product;
-		}
-	}
+    for c in chars_iter {
 
-	return max;
+        nums.pop_front();
+        nums.push_back(c.to_digit(10).unwrap() as u8);
+        curr_product = {
+            let mut temp: i64 = 1;
+            for i in &nums {
+                temp *= *i as i64;
+            }
+            temp
+        };
+
+        if curr_product > max {
+            max = curr_product;
+        }
+    }
+
+    return max;
 }
