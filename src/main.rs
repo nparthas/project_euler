@@ -1,5 +1,4 @@
 #![allow(dead_code)]
-
 use std::time::Instant;
 
 mod q1_50;
@@ -18,6 +17,6 @@ fn run_and_print(function: &Fn() -> i64) -> () {
 
 fn main() {
 
-    run_and_print(&q1_50::q12::q12);
+    run_and_print(&q1_50::q16::q16);
 
 }
