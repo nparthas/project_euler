@@ -4,13 +4,12 @@ extern crate num_bigint;
 use self::num_bigint::{BigInt, ToBigInt};
 use std::ops::Mul;
 
-
-pub fn q16() -> i64 {
+pub fn q20() -> i64 {
 
     let num_str: String = {
-        let mut num: BigInt = 2.to_bigint().unwrap();
-        for _ in 1..1000 {
-            num = num.mul(2);
+        let mut num: BigInt = 1.to_bigint().unwrap();
+        for i in 2..101 {
+            num = num.mul(i);
         }
         num.to_str_radix(10)
     };

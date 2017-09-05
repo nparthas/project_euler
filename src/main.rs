@@ -2,6 +2,7 @@
 use std::time::Instant;
 
 mod q1_50;
+mod q51_100;
 
 fn run_and_print(function: &Fn() -> i64) -> () {
     let now = Instant::now();
@@ -17,7 +18,7 @@ fn run_and_print(function: &Fn() -> i64) -> () {
 
 fn main() {
 
-    run_and_print(&q1_50::q18::q18);
+    run_and_print(&q1_50::q21::q21);
 
 
 }

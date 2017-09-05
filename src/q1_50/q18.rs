@@ -1,3 +1,5 @@
+use std::cmp;
+
 pub fn q18() -> i64 {
 
     let triangle_str: String = "75
@@ -18,29 +20,40 @@ pub fn q18() -> i64 {
         .to_string();
 
 
-    let mut tri_vec: Vec<&str> = triangle_str.split_whitespace().collect();
-    tri_vec.insert(0, ""); // have heap data now
-
-    for s in &tri_vec {
-        println!("{}", s);
+    let mut tri_vec: Vec<u16> = Vec::with_capacity(120);
+    {
+        let tri_vec_str: Vec<&str> = triangle_str.split_whitespace().collect();
+        for s in tri_vec_str {
+            tri_vec.push(s.parse::<u16>().unwrap());
+        }
     }
 
-    println!("{}", tri_vec[0]);
+    let mut length = *&tri_vec.len();
+    let mut row = compute_row(length);
 
 
-    return -1;
+    let mut row_prev_index = length - row - 1;
+    while length > 3 {
+
+        for i in (length - row + 1..length).rev() {
+
+            tri_vec[row_prev_index] += cmp::max(tri_vec[i], tri_vec[i - 1]);
+            row_prev_index -= 1;
+
+        }
+
+        length -= row;
+        row -= 1;
+    }
+
+    return tri_vec[0] as i64 + cmp::max(tri_vec[1], tri_vec[2]) as i64;
 }
 
 
-fn max_depth(heap: &Vec<&str>, index: u8, size: u8) -> i64 {
-
-
-    if 2 * index <= size {
-        max_depth(&heap, 2 * index, size); //left child
-        max_depth(&heap, 2 * index + 1, size); //right child
+fn compute_row(length: usize) -> usize {
+    let mut n = 1;
+    while n * (n + 1) != length * 2 {
+        n += 1;
     }
-
-
-
-
+    n
 }
