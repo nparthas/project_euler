@@ -18,7 +18,7 @@ fn run_and_print(function: &Fn() -> i64) -> () {
 
 fn main() {
 
-    run_and_print(&q1_50::q22::q22);
+    run_and_print(&q1_50::q24::q24);
 
 
 }
