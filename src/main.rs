@@ -1,4 +1,5 @@
 #![allow(dead_code)]
+#![allow(unused_assignments)]
 use std::time::Instant;
 
 mod q1_50;

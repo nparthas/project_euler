@@ -24,3 +24,4 @@ pub mod q23;
 pub mod q24;
 pub mod q25;
 pub mod q26;
+pub mod q27;

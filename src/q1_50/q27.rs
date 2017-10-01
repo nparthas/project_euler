@@ -5,9 +5,9 @@ pub fn q27() -> i64 {
     let prime_vec: Vec<i64> = generate_prime_list();
 
     for a in -999..1000 {
-        for b in -999..1000 {
+        for b in &prime_vec {
 
-            let count = count_consecutive(a, b);
+            let count = count_consecutive(a, *b);
             if count > max_count {
                 max_count = count;
                 prod = a * b;
@@ -30,10 +30,6 @@ fn generate_prime_list() -> Vec<i64> {
 }
 
 fn count_consecutive(a: i64, b: i64) -> i64 {
-
-    if !is_prime(b) {
-        return 0;
-    }
 
     if (1 + a + b) % 2 != 1 {
         return 1;
