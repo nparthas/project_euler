@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"EVE",
+				"EventsLoop"
+			],
+			[
 				"pr",
 				"println\tprintln!(…)"
 			],
@@ -84,45 +88,54 @@
 	"buffers":
 	[
 		{
-			"file": "src/main.rs",
+			"file": "/home/neilp/Documents/rust_programs/magic_mirror/src/lib.rs",
 			"settings":
 			{
-				"buffer_size": 425,
+				"buffer_size": 185,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/q1_50/mod.rs",
+			"file": "/home/neilp/Documents/rust_programs/magic_mirror/src/main.rs",
 			"settings":
 			{
-				"buffer_size": 341,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/q1_50/q27.rs",
-			"settings":
-			{
-				"buffer_size": 1923,
+				"buffer_size": 217,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/q1_50/q26.rs",
+			"file": "/home/neilp/Documents/rust_programs/conrod/examples/support/mod.rs",
 			"settings":
 			{
-				"buffer_size": 593,
+				"buffer_size": 13506,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/neilp/Documents/rust_programs/conrod/examples/all_winit_glium.rs",
+			"settings":
+			{
+				"buffer_size": 5670,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/neilp/Documents/rust_programs/magic_mirror/src/main_window/mod.rs",
+			"settings":
+			{
+				"buffer_size": 4068,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/q1_50/q10.rs",
+			"file": "/home/neilp/Documents/rust_programs/magic_mirror/src/main_window/support/mod.rs",
 			"settings":
 			{
-				"buffer_size": 1068,
+				"buffer_size": 1023,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -375,15 +388,19 @@
 	],
 	"file_history":
 	[
-		"/home/neilp/Documents/rust_programs/project_euler/src/q1_50/q3.rs",
+		"/home/neilp/Documents/rust_programs/magic_mirror/src/weather/mod.rs",
+		"/home/neilp/Documents/rust_programs/project_euler/src/q1_50/q10.rs",
+		"/home/neilp/Documents/rust_programs/project_euler/src/q1_50/mod.rs",
 		"/home/neilp/Documents/rust_programs/project_euler/src/q1_50/q27.rs",
+		"/home/neilp/Documents/rust_programs/project_euler/src/q1_50/q26.rs",
+		"/home/neilp/Documents/rust_programs/project_euler/src/main.rs",
+		"/home/neilp/Documents/rust_programs/project_euler/src/q1_50/q3.rs",
 		"/home/neilp/Documents/rust_programs/project_euler/src/q1_50/q21.rs",
 		"/home/neilp/Documents/rust_programs/project_euler/src/q1_50/q22.rs",
 		"/home/neilp/Documents/rust_programs/project_euler/src/q1_50/q17.rs",
 		"/home/neilp/Documents/rust_programs/conrod/examples/support/mod.rs",
 		"/home/neilp/Documents/rust_programs/conrod/examples/all_winit_glium.rs",
 		"/home/neilp/Documents/rust_programs/magic_mirror/src/main_window/mod.rs",
-		"/home/neilp/Documents/rust_programs/magic_mirror/src/weather/mod.rs",
 		"/home/neilp/Documents/rust_programs/magic_mirror/src/lib.rs",
 		"/home/neilp/Documents/rust_programs/magic_mirror/Cargo.toml",
 		"/home/neilp/Documents/rust_programs/magic_mirror/src/main.rs",
@@ -398,16 +415,12 @@
 		"/home/neilp/Documents/rust_programs/weather_api_testing/src/weather/json_reader.rs",
 		"/home/neilp/Documents/rust_programs/conrod/examples/all_piston_window.rs",
 		"/home/neilp/Documents/rust_programs/conrod/Cargo.toml",
-		"/home/neilp/Documents/rust_programs/project_euler/src/q1_50/q26.rs",
 		"/home/neilp/Documents/rust_programs/project_euler/src/q1_50/q25.rs",
 		"/home/neilp/Documents/rust_programs/project_euler/src/q1_50/q16.rs",
-		"/home/neilp/Documents/rust_programs/project_euler/src/q1_50/mod.rs",
-		"/home/neilp/Documents/rust_programs/project_euler/src/main.rs",
 		"/home/neilp/Documents/rust_programs/project_euler/src/q1_50/q23.rs",
 		"/home/neilp/Documents/rust_programs/project_euler/src/q1_50/q24.rs",
 		"/home/neilp/Documents/rust_programs/project_euler/src/q1_50/TXTFiles/p022_names.txt",
 		"/home/neilp/Documents/rust_programs/project_euler/src/q1_50/q20.rs",
-		"/home/neilp/Documents/rust_programs/project_euler/src/q1_50/q10.rs",
 		"/home/neilp/Documents/rust_programs/project_euler/src/q1_50/q19.rs",
 		"/home/neilp/Documents/rust_programs/project_euler/src/q1_50/q11.rs",
 		"/home/neilp/Documents/rust_programs/project_euler/src/q1_50/q18.rs",
@@ -479,19 +492,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "src/main.rs",
+					"file": "/home/neilp/Documents/rust_programs/magic_mirror/src/lib.rs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 425,
+						"buffer_size": 185,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								417,
-								417
+								87,
+								87
 							]
 						],
 						"settings":
@@ -505,56 +518,51 @@
 					},
 					"stack_index": 1,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 2,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 1,
-					"file": "src/q1_50/mod.rs",
+					"file": "/home/neilp/Documents/rust_programs/magic_mirror/src/main.rs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 341,
+						"buffer_size": 217,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								216,
+								216
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rust Enhanced/RustEnhanced.sublime-syntax"
+							"syntax": "Packages/Rust Enhanced/RustEnhanced.sublime-syntax",
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "src/q1_50/q27.rs",
+					"file": "/home/neilp/Documents/rust_programs/conrod/examples/support/mod.rs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1923,
+						"buffer_size": 13506,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								132,
-								132
+								12085,
+								12085
 							]
 						],
 						"settings":
@@ -572,48 +580,19 @@
 				},
 				{
 					"buffer": 3,
-					"file": "src/q1_50/q26.rs",
+					"file": "/home/neilp/Documents/rust_programs/conrod/examples/all_winit_glium.rs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 593,
+						"buffer_size": 5670,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								590,
-								590
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rust Enhanced/RustEnhanced.sublime-syntax",
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/q1_50/q10.rs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1068,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								808,
+								745
 							]
 						],
 						"settings":
@@ -627,6 +606,72 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "/home/neilp/Documents/rust_programs/magic_mirror/src/main_window/mod.rs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4068,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								457,
+								457
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rust Enhanced/RustEnhanced.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/neilp/Documents/rust_programs/magic_mirror/src/main_window/support/mod.rs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1023,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								570,
+								570
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rust Enhanced/RustEnhanced.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -660,7 +705,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.449326145553,
 			1.0
 		],
 		"rows":
@@ -672,7 +717,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 246.0
+		"height": 208.0
 	},
 	"output.find_results":
 	{

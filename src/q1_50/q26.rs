@@ -24,5 +24,5 @@ pub fn q26() -> i64 {
         }
 
     }
-    length
+    length + 1 // the number with the longest cycle is one bigger than the length
 }
