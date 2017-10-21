@@ -1,5 +1,5 @@
 target
 .vscode
-euler_current.sublime_workspace
+euler_current.sublime-workspace
 src/main.exe
 src/main.pdb
