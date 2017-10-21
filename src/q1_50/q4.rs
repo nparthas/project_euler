@@ -1,4 +1,4 @@
-pub fn q3() -> i64 {
+pub fn q4() -> i64 {
 
     let mut max: i64 = 100001;
 

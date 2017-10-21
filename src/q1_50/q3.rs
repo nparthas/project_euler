@@ -1,6 +1,6 @@
 // use std::ops::Rem;
 
-pub fn q2() -> i64 {
+pub fn q3() -> i64 {
 
     let num = 600851475143_i64;
     let mut largest_num = 0_i64;

@@ -1,4 +1,4 @@
-pub fn q4() -> i64 {
+pub fn q5() -> i64 {
 
     let mut primes = Vec::new();
 
